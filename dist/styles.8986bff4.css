@@ -8,7 +8,7 @@ body {
   font-family: 'Muli', sans-serif;
   overflow: hidden;
   margin: 0;
-  background: #111;
+  background: #b8e0dd;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -42,15 +42,19 @@ body {
   left: 20px;
   margin: 0;
   opacity: 0;
+  color: #6cded8;
 }
 
 .slide.active{
   flex: 10;
 }
 
+
 .slide.active h3{
   opacity: 1;
-  transition: opacity 0.3s ease-in 0.4s;
+  transition: opacity 0.3s ease-in 0.4s
+
+;
 }
 
 /*# sourceMappingURL=/styles.8986bff4.css.map */
