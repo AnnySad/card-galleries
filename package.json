@@ -1,13 +1,18 @@
 {
   "name": "marathon-urok-1",
+  "homepage": "https://AnnySad.github.io/card-galleries",
   "version": "1.0.0",
+  "private": "true",
   "description": "",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {
